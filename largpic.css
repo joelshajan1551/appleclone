@@ -1,0 +1,11 @@
+.appleimage{
+    flex-direction: row;
+    flex: 1fr 1fr 1fr;
+}
+.applemainimg{
+    width: 1919px;
+    
+}
+.applemainimg div{
+    width: 100%;
+}
