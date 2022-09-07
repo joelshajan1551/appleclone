@@ -1,11 +1,82 @@
 .appleimage{
-    flex-direction: row;
-    flex: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    height: 692px;
+   position: relative;
+    align-items: center;
+   
 }
-.applemainimg{
-    width: 1919px;
-    
+.eventname{
+   position: absolute;
+   color: white;
+   bottom: 150px;
+   font-size: 56px;
+   font-weight: 600;
+  
 }
-.applemainimg div{
-    width: 100%;
+.eventtime{
+    position: absolute;
+    color: white;
+    bottom: 116px;
+    font-size: 28px;
+    font-weight: 400;
 }
+.help{
+    position: absolute;
+    color: rgb(41,151,255);
+    bottom: 74px;
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.help:hover{
+    color: rgb(41,151,255);
+    text-decoration: underline;
+}
+
+.appleevent{
+    height: 100%;
+    object-fit: cover;
+}
+.appledevice{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.idevice{
+    height: 720px;
+    max-width: 100%;
+    object-fit: cover;
+    bottom: 10px;
+}
+.iphone13{
+    position: absolute;
+    font-size: 56px;
+    font-weight: 600;
+    top: 75px;
+}
+.iphonesub{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 400;
+    top: 150px;
+}
+.ihelp{
+    position: absolute;
+    color: rgb(0,102,204);
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+    top: 200px;
+}
+.ihelp span{
+    padding-right: 40px;
+    margin-left: 22px;
+}
+.ihelp span:hover{
+    color: rgb(0,102,204);
+    text-decoration: underline;
+}
+
